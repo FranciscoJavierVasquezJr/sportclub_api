@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb": {
+    "host": "ds123956.mlab.com",
+    "port": 23956,
+    "url": "",
+    "database": "sportclub",
+    "password": "${PASSMONGO}",
+    "name": "mongodb",
+    "user": "${USERMONGO}",
+    "connector": "mongodb"
+  }
+}
